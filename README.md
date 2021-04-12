@@ -15,12 +15,12 @@ All documentation you will need regarding the Marketo specific requirements can 
 - Fork the repo
 - Create your own branch containing your first and last name
 - The project requires dependencies, those are missing. Install and run Gulp using the 'gulp' command.
-- Add SASS style & Marketo form to recreate the design provided in the 'img' folder, all other assets can be found in this folder as well
+- Add SASS style & Marketo form to recreate the design provided in the 'img' folder, all other assets can be found in this folder as well: https://github.com/dirixtom/lf-test/blob/master/app/img/brief.png
 - H1 & H2 titles editable in Marketo
 - Make banner "button" editable, both text and href
 - Embed Marketo form to the landing page which can be found here: https://app-lon02.marketo.com/#FO1520A1ZN13LA1
 - Make a small javascript that prefills your first name, last name and email address in the Marketo form in the script file. Not inline in the HTML.
-- Remove 'dist' from the .gitignore file, stage & commit your changes and let your contact within LeadFabric know you're done.
+- Remove the 'dist' folder from the .gitignore file, stage & commit your changes and let your contact within LeadFabric know you're done.
 
 **Mobile responsiveness is not required but is a plus. You can find a media-queries mixin in the 'mixins' folder.**
 **Approximate values are fine. Don't lose time on nitpicking fot sizes, paddings, border radii, ...**
