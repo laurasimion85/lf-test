@@ -22,5 +22,9 @@ All documentation you will need regarding the Marketo specific requirements can 
 - Make a small javascript that prefills your first name, last name and email address in the Marketo form in the script file. Not inline in the HTML.
 - Remove the 'dist' folder from the .gitignore file, stage & commit your changes and let your contact within LeadFabric know you're done.
 
-**Mobile responsiveness is not required but is a plus. You can find a media-queries mixin in the 'mixins' folder.**
-**Approximate values are fine. Don't lose time on nitpicking fot sizes, paddings, border radii, ...**
+**Bonus:**
+- Add a boolean that shows/hide the H2 title and make it hidden by default
+- Make the design responsive (desktop-first strategy). You can find a media-queries mixin in the 'mixins' folder.
+
+
+**Approximate values are fine. Don't lose time on nitpicking colors, font sizes, paddings, border radii, ... in reality these are copy-pasted from **
