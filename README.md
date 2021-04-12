@@ -6,7 +6,7 @@ All documentation you will need regarding the Marketo specific requirements can 
 1. https://docs.marketo.com/display/public/DOCS/Create+a+Guided+Landing+Page+Template
 2. https://developers.marketo.com/javascript-api/forms/api-reference/
 3. https://developers.marketo.com/rest-api/assets/forms/examples/
-**If you do not yet have access to the Marketo Sandbox Instance please send an email to Mihaela**
+**If you do not yet have access to the Marketo Sandbox Instance please let your LeadFabric contact know**
 
 ### Requirements:
 
@@ -18,5 +18,7 @@ All documentation you will need regarding the Marketo specific requirements can 
 - Make banner "button" editable, both text and href
 - Embed Marketo form to the landing page which can be found here: https://app-lon02.marketo.com/#FO1520A1ZN13LA1
 - Make a small javascript that prefills your first name, last name and email address in the Marketo form in the script file. Not inline in the HTML.
+- Remove 'dist' from the .gitignore file, stage & commit your changes and let your contact within LeadFabric know you're done.
 
 **Mobile responsiveness is not required but is a plus. You can find a media-queries mixin in the 'mixins' folder.**
+**Approximate values are fine. Don't lose time on nitpicking fot sizes, paddings, border radii, ...**
