@@ -6,6 +6,7 @@ All documentation you will need regarding the Marketo specific requirements can 
 1. https://docs.marketo.com/display/public/DOCS/Create+a+Guided+Landing+Page+Template
 2. https://developers.marketo.com/javascript-api/forms/api-reference/
 3. https://developers.marketo.com/rest-api/assets/forms/examples/
+4. https://gulpjs.com/docs/en/getting-started/quick-start/
 
 
 **If you do not yet have access to the Marketo Sandbox Instance please let your LeadFabric contact know**
