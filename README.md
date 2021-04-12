@@ -27,6 +27,6 @@ All documentation you will need regarding the Marketo specific requirements can 
 - Make the design responsive (desktop-first strategy). You can find a media-queries mixin in the 'mixins' folder.
 
 
-**Approximate values are fine. Don't lose time on nitpicking colors, font sizes, paddings, border radii, ... in reality these are copy-pasted from **
+**Approximate values are fine. Don't lose time on nitpicking colors, font sizes, paddings, border radii, ... in reality these are copy-pasted from brand guideline files or existing assets**
 
 Good luck!
