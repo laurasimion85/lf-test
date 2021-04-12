@@ -15,7 +15,7 @@ All documentation you will need regarding the Marketo specific requirements can 
 
 - Fork the repo
 - Create your own branch containing your first and last name
-- The project requires dependencies, those are missing. Install and run Gulp using the 'gulp' command.
+- The project requires dependencies, those are missing. Install Gulp, install the dependencies and compile the project using the 'gulp' command.
 - Add SASS style & Marketo form to recreate the design provided in the 'img' folder, all other assets can be found in this folder as well: https://github.com/dirixtom/lf-test/blob/master/app/img/brief.png
 - H1 & H2 titles editable in Marketo
 - Make banner "button" editable, both text and href
