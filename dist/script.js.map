@@ -1,0 +1,1 @@
+{"version":3,"sources":["script.js"],"names":["$","MktoForms2","whenReady","form","vals","FirstName","LastName","Email","toggle"],"mappings":"AACAA,GAAE,WAEEC,WAAWC,WAAU,SAASC,GAE1BA,EAAKC,KAAK,CAAEC,UAAa,QAASC,SAAY,SAAUC,MAAS,kCAMjEP,EAAE,iBAAiBQ","file":"script.js"}

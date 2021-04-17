@@ -1,0 +1,47 @@
+
+
+.banner
+    height: 100vh
+    width: 100vw              
+    text-align: center
+    background: url('../app//img/background.jpg') no-repeat
+    background-size: cover
+    background-position: 50% 60%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    
+    @include mq(notmobile)
+      height: 100vh 
+
+    @include mq(tablet)
+      height: 80vh
+
+    @include mq(mobile)
+      height: 60vh
+
+    
+    #banner_button
+      background-color: $primary
+      height: 60px
+      width: 120px
+      border-radius: 5px
+
+      @include mq(mobile)
+       height: 40px
+       width: 100px
+    
+      a
+       color: $white
+       line-height: 66px
+       font-size: 30px
+
+       @include mq(mobile)
+        font-size: 20px
+        line-height: 50px
+       
+       
+        
+  
+     

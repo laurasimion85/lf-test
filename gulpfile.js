@@ -10,7 +10,7 @@ function scssTask() {
     return src('app/sass/styles.sass', {
             sourcemaps: true
         })
-        .pipe(sass( {
+        .pipe(sass({
             includePaths: ['node_modules']
         }))
         .pipe(postcss([cssnano()]))
@@ -48,6 +48,7 @@ function browsersyncReload(cb) {
 function watchTask() {
     watch('*.html', browsersyncReload);
     watch(['./app/**/*.sass', './app/**/*.js'], series(scssTask, jsTask, browsersyncReload));
+
 }
 
 // Default Gulp Task

@@ -7,16 +7,23 @@ body
 h1
     color: $primary
     font-weight: $bold
-    font-size: $h1
+    font-size: 4em
     line-height: $lh-title
     width: 100%
     margin: 0 0 10px
+    padding: 0 0 20px 0 
 
+    @include mq(mobile)
+     padding: 0 10px 10px 10px
+     font-size: $h1
+   
 h2
-    color: $font
-    font-weight: $light
-    font-size: $h3
-    display: inline-block
+  color: $font
+  font-weight: $light
+  font-size: $h2
+  display: none
+  text-align: center
+  margin-top: 30px
     
 p, ol, ul
     font-family: $font-style

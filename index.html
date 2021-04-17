@@ -1,64 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Solarwinds Partner Portal</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solarwinds Partner Portal</title>
 
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <link href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <link href="//launch.solarwinds.com/rs/564-VFR-008/images/cookie-banner.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="//launch.solarwinds.com/rs/564-VFR-008/images/cookie-banner.css" rel="stylesheet" />
 
-        <link rel="icon" type="image/png" href="//launch.solarwinds.com/rs/564-VFR-008/images/favicon-EMEA.ico">
+    <link rel="icon" type="image/png" href="//launch.solarwinds.com/rs/564-VFR-008/images/favicon-EMEA.ico">
 
-        <script src="//code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        <script src="//use.fontawesome.com/2e1b960f42.js"></script>
-        <script src="//use.fortawesome.com/5979041a.js"></script>
+    <script src="//code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="//use.fontawesome.com/2e1b960f42.js"></script>
+    <script src="//use.fortawesome.com/5979041a.js"></script>
 
-        <script>
-            WebFontConfig = {
-                google: { families: ['Roboto:300,400,500,700'] }
-            };
-            (function () {
-                var wf = document.createElement('script');
-                wf.src = ('https:' === document.location.protocol ? 'https' : 'http') +
-                    '://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
-                wf.type = 'text/javascript';
-                wf.async = 'true';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(wf, s);
-            })();
-        </script>
+    <script>
+        WebFontConfig = {
+            google: {
+                families: ['Roboto:300,400,500,700']
+            }
+        };
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = ('https:' === document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
 
-        <link rel="stylesheet" href="dist/styles.css">
+    <link rel="stylesheet" href="dist/styles.css">
 
-        <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0014/4683.js" async="async"></script>
-    </head>
+    <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0014/4683.js" async="async"></script>
+</head>
 
-    <body>
+<body>
 
-        <div class="header">
-            <img src="app/images/logo.png" alt="Logo">
+    <div class="header">
+        <img src="app/img/logo.png" alt="Logo">
+    </div>
+
+    <main>
+        <div class="banner">
+            <h1 class="mktoText" id="first_title" mktoName="First Title Text">Lorem ipsum dolor sit amet</h1>
+            <div class="mktoSnippet" id="banner_button" mktoName="Banner button">
+                <a href="#">Submit</a>
+            </div>
         </div>
+        <div class="content">
+            <h2 class="mktoText" id="second_title" mktoName="Second Title Text">Lorem ipsum</h2>
+            <!-- Form goes here -->
+            <script src="//app-lon02.marketo.com/js/forms2/js/forms2.min.js"></script>
+            <script>
+                MktoForms2.loadForm("//app-lon02.marketo.com", "275-OTA-175", 1520);
+            </script>
+            <form id="mktoForm_1520"></form>
+        </div>
+    </main>
 
-        <main>
-            <div class="banner">
-                <h1>Lorem ipsum dolor sit amet</h1>
-                <a href="#">Button</a>
-            </div>
-            <div class="content">
-                <h2>Lorem ipsum</h2>
-                <!-- Form goes here -->
-                <script src="//app-lon02.marketo.com/js/forms2/js/forms2.min.js"></script>
-                <form id="mktoForm_1520"></form>
-                <script>MktoForms2.loadForm("//app-lon02.marketo.com", "275-OTA-175", 1520);</script>
-            </div>
-        </main>
-
-        <script src="dist/script.js"></script>
-    </body>
+    <script src="dist/script.js"></script>
+</body>
 
 </html>
